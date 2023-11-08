@@ -8,8 +8,8 @@ export const routes = [
     element: <MainLayout />,
     handle: { title: 'Main' },
     children: [
-      { path: '/', element: <PersonCrud />, handle: { title: 'Edit persons' } },
-      { path: '/form', element: <PersonForm />, handle: { title: 'Edit person' } },
+      { path: '/', element: <PersonCrud />, handle: { title: 'CRUD' } },
+      { path: '/form', element: <PersonForm />, handle: { title: 'Form' } },
     ],
   },
 ] as RouteObject[];
